@@ -34,7 +34,17 @@ A web-based idle game where you run a bot to gather resources, train skills, and
 
 4. Open http://localhost:5173 in your browser
 
-<pre> ## Folder Structure ```text BotGame/ ├── public/ # Static assets ├── src/ │ ├── components/ # UI components (BotPanel, Inventory, XP Bars, etc.) │ ├── data/ # Static data (skills, shop items) │ ├── context/ # Global state and context providers │ ├── hooks/ # Custom React hooks │ └── App.jsx # Root component └── index.html ``` </pre>
+## Folder Structure
+
+BotGame/
+├── public/             # Static assets
+├── src/
+│   ├── components/     # UI components (BotPanel, Inventory, XP Bars, etc.)
+│   ├── data/           # Static data (skills, shop items)
+│   ├── context/        # Global state and context providers
+│   ├── hooks/          # Custom React hooks
+│   └── App.jsx         # Root component
+└── index.html
 
 ## Current Skills
 
