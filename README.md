@@ -36,6 +36,7 @@ A web-based idle game where you run a bot to gather resources, train skills, and
 
 ## Folder Structure
 
+```
 BotGame/
 ├── public/             # Static assets
 ├── src/
@@ -45,6 +46,7 @@ BotGame/
 │   ├── hooks/          # Custom React hooks
 │   └── App.jsx         # Root component
 └── index.html
+```
 
 ## Current Skills
 
